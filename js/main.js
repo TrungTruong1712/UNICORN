@@ -13,9 +13,7 @@ close.onclick = function () {
 close_footer.onclick = function () {
   modal.style.display = "none";
 }
-order.onclick = function () {
-  alert("Cảm ơn bạn đã thanh toán đơn hàng")
-}
+
 window.onclick = function (event) {
   if (event.target == modal) {
     modal.style.display = "none";
