@@ -152,3 +152,22 @@ section .noi-dung .form .icon-dang-nhap li i{
       font-weight: 500;
   }
 }
+.copyright-w3layouts, .mt-4{
+  border-top: 1px solid #292828 ;
+  margin-top: 2em;
+  padding-top: 2em;
+  
+}
+.copyright-w3layouts {
+border-top: 1px solid #292828;
+margin-top: 2em;
+padding-top: 2em;
+}
+
+.copyright-w3layouts p {
+color: #616263;
+}
+
+.copyright-w3layouts p a:hover {
+color: #fff;
+}

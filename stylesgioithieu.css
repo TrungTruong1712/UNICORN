@@ -10,12 +10,7 @@
   li {
     list-style: none;
   }
-  h1{
-    margin-left: 50px;
-    padding-left: 10px;
-    font-size: 25px;
-    display: flex;
-}
+  
 .img{
   width: 100%;
 }
@@ -343,6 +338,7 @@ footer{
 }
 footer .container .noi-dung{
   margin-right: 30px;
+  color: #999;
 }
 footer  .container .noi-dung.about{
   width:40%;
@@ -368,9 +364,7 @@ footer .container .noi-dung.about h2:before{
   height: 2px;
   background: #f00;
 }
-p{
-  color: #999;
-}
+
 .social-icon{
   margin-top: 20px;
   display: flex;
@@ -583,3 +577,22 @@ p{
   flex-direction: center;
   align-items: center;
 }
+#content{
+    margin: 50px;
+}
+div{
+    
+    display: block;
+
+}
+*{
+    box-sizing: border-box;
+}
+html, *{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin-top: 50px;
+}
+
