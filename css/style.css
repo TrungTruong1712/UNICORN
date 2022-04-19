@@ -174,7 +174,12 @@
     justify-content: flex-end;
     border-top: 1px solid #aaaaaa;
     padding: 1rem;
+    text-decoration: none;
   }
+  .modal-footer:hover{
+    color: #8FBDD3;
+    text-decoration-line: none;
+}
   
   .modal-footer>:not(:first-child) {
     margin-left: .25rem;
