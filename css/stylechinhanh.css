@@ -563,7 +563,11 @@ p{
   margin-top: 2em;
   padding-top: 2em;
 }
-
+footer  .container .noi-dung.about{
+  width:40%;
+  text-align: justify;
+}
+}
 .copyright-w3layouts p {
   color: #616263;
 }

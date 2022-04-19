@@ -348,6 +348,7 @@ footer .container .noi-dung{
 }
 footer  .container .noi-dung.about{
   width:40%;
+  text-align: justify;
 }
 footer .container .noi-dung.links{
   width: 30%;

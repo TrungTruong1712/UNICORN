@@ -342,6 +342,7 @@ footer .container .noi-dung{
 }
 footer  .container .noi-dung.about{
   width:40%;
+  text-align: justify;
 }
 footer .container .noi-dung.links{
   width: 30%;
@@ -409,14 +410,14 @@ footer .container .noi-dung.about h2:before{
 .links ul li a:hover{
   color: #fff;
 }
-.links h2::before{
-  content: '';
-  position: absolute;
-  bottom: -5px;
-  left: 0;
-  width: 50px;
-  height: 2px;
-  background: #f00;
+.links h2::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
 }
 .contact h2{
   position: relative;
@@ -579,6 +580,8 @@ footer .container .noi-dung.about h2:before{
 }
 #content{
     margin: 50px;
+    text-align: justify
+    ;
 }
 div{
     
@@ -594,5 +597,8 @@ html, *{
 }
 h1{
     margin-top: 50px;
+}
+p{
+    font-size: 18px;
 }
 
