@@ -170,7 +170,10 @@
     border-top: 1px solid #aaaaaa;
     padding: 1rem;
   }
-  
+  .modal-footer button, .btn, .btn-primary, .order a{
+    text-decoration: none;
+    color: black;
+  }
   .modal-footer>:not(:first-child) {
     margin-left: .25rem;
   }
@@ -339,6 +342,12 @@ footer{
 footer .container .noi-dung{
   margin-right: 30px;
   color: #999;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #fff;
+  border-color: darkgray;
+  text-decoration: none;
 }
 footer  .container .noi-dung.about{
   width:40%;

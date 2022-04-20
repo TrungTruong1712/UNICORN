@@ -43,6 +43,9 @@ section .noi-dung .form h2{
   display: inline-block;
   letter-spacing: 1px;
 }
+.input-form a input:hover{
+  color: rgb(255, 255, 255);
+}
 section .noi-dung .form .input-form{
   margin-bottom: 20px;
 }

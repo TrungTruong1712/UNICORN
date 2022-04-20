@@ -194,8 +194,8 @@
   
   .btn-primary {
     color: #fff;
-    background-color: #0275d8;
-    border-color: #0275d8;
+    background-color: #fff;
+    border-color: darkgray;
   }
   
   .modal-header {
@@ -547,7 +547,22 @@ p{
     color: black;
     margin-right: 20px;
   }
-  
+  .modal-footer button, .btn, .btn-primary, .order a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  .modal-footer button, .btn, .btn-primary, .order a:hover{
+    color: #000;
+    text-decoration: none;
+  }
+  .content-product h3, .content-product-h3 a{
+    color: #67adce;
+    text-decoration: none;
+  }
+  .content-product h3, .content-product-h3 a:hover{
+    color: #000000;
+    
+  }
   .cart-total-price {
     color: #333;
     font-size: 1.1em;

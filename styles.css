@@ -488,6 +488,16 @@ p{
     letter-spacing: 1px;
     margin-bottom: 20px;
 }
+
+.input-form p a{
+  color: #607d8b;
+  text-decoration: none;
+  border: border-box
+}
+.input-form p a:hover{
+  color: #000;
+  text-decoration: none;
+}
 .nho-dang-nhap{
     color: #607d8b;
     font-size: 14px;
@@ -499,6 +509,18 @@ p{
 .modal-footer:hover{
     color: #8FBDD3;
     text-decoration-line: none;
+}
+.modal-footer button,.btn, .btn-primary, .order, a{
+  color: #282929;
+  text-decoration: none;
+
+}
+
+.modal-footer button,.btn, .btn-primary, .order, a:hover{
+  color: #282929;
+  text-align: center;
+  text-transform: none;
+  text-decoration: none;
 }
 .copyright-w3layouts, .mt-4{
   border-top: 1px solid #292828 ;
