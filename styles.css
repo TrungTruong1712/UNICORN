@@ -19,6 +19,9 @@
 .img{
   width: 100%;
 }
+b{
+  color: #999;
+}
 .link h4{
   margin-left: 30px;
   position: relative;
@@ -344,6 +347,7 @@ footer{
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
 footer .container .noi-dung{
   margin-right: 30px;
 }
@@ -462,7 +466,7 @@ p{
 .contact .info li span{
   color: #999;
 }
-.contact .info li a{
+.contact .info li a {
   color: #999;
   text-decoration: none;
 }
