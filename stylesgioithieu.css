@@ -17,7 +17,7 @@
 .link h4{
   margin-left: 30px;
   position: relative;
-  color: rgb(0, 0, 0);
+  color: #CC9966;
   font-weight: 500;
   margin-top: 35px;
   font-size: 30px;
@@ -33,14 +33,14 @@
   
 }
 .link ul li a{
-  color: rgb(26, 25, 25);
+  color: #CC9966);
   text-decoration: none;
   display: inline-block;
   font-family: 'Quicksand', sans-serif;
   
 }
 .link ul li a:hover{
-  color: #8FBDD3;
+  color: #CC9966;
   transition: 0,5s;
   border-radius: 10px;
   
@@ -80,7 +80,7 @@
   }
   
   nav .content-nav ul li a:hover {
-    color: #8FBDD3;
+    color: black;
     transform: scale(1.5);
     transition: 0.35s;
     border-radius: 20px;
@@ -153,6 +153,7 @@
     transition: all 0.5s;
     justify-content: left;
   }
+  
   img:hover{
     transform: scale(1.07);
     transition: 0.5s;

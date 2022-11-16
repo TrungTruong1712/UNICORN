@@ -22,7 +22,7 @@
 .link h4{
   margin-left: 30px;
   position: relative;
-  color: rgb(0, 0, 0);
+  color: #CC9966;
   font-weight: 500;
   margin-top: 35px;
   font-size: 30px;
@@ -45,7 +45,7 @@
   
 }
 .link ul li a:hover{
-  color: #8FBDD3;
+  color: #CC9966;
   transition: 0,5s;
   border-radius: 10px;
   
@@ -55,7 +55,7 @@
     padding: 15px;
     width: 100%;
     display: flex;
-    background: #252525;
+    background: #CC9966;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -85,7 +85,7 @@
   }
   
   nav .content-nav ul li a:hover {
-    color: #8FBDD3;
+    color: black;
     transform: scale(1.5);
     transition: 0.35s;
     border-radius: 20px;
@@ -259,7 +259,7 @@
   #cart {
     font-size: 15px;
     color: #ffffff;
-    background: #252525;
+    background: #CC9966;
     border: 1px solid transparent;
     border-radius: 10px;
     outline: none;
@@ -358,7 +358,7 @@ footer{
   width: 100%;
   height: auto;
   padding: 30px 50px;
-  background: #111;
+  background: #CC9966;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -392,7 +392,7 @@ footer .container .noi-dung.about h2:before{
   background: #f00;
 }
 p{
-  color: #999;
+  color: white;
 }
 .social-icon{
   margin-top: 20px;
@@ -405,13 +405,16 @@ p{
   display: inline-block;
   width: 40px;
   height: 40px;
-  background: #222;
+  background: #CC9966;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-right: 10px;
   text-decoration: none;
   border-radius: 4px;
+}
+.fa fa-shopping-basket{
+  background: red;
 }
 .social-icon li a:hover{
   background: #f00;
@@ -430,7 +433,7 @@ p{
   list-style: none;
 }
 .links ul li a{
-  color: #999;
+  color: white;
   text-decoration: none;
   margin-bottom: 10px;
   display: inline-block;
@@ -486,10 +489,10 @@ body .KINHTO img{
   transform: scale(1);
 }
 .contact .info li span{
-  color: #999;
+  color: white;
 }
 .contact .info li a{
-  color: #999;
+  color: white;
   text-decoration: none;
 }
 /* cart */
